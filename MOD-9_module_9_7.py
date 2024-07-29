@@ -1,6 +1,6 @@
 
-
 # Домашнее задание по теме "Декораторы"
+
 def is_primes(func):
     def wrapper(*args):
         result_ = func(*args)
@@ -20,3 +20,5 @@ def sum_three(a, b, c):
 
 result = sum_three(2, 3, 6)
 print(result)
+
+
